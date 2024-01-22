@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[url(./assets/background.jpg)] text-white">
       <Navbar/>
       <Hero/>
       <Skills/>

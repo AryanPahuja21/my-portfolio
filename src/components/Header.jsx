@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='h-[115px] text-[56px] w-full'>
-      <h1 className='w-fit mx-auto font-serif'>PORTFOLIO</h1>
+    <div className='w-full'>
+      <h1 className='w-fit text-[56px] mx-auto font-serif'>PORTFOLIO</h1>
     </div>
   )
 }

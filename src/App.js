@@ -6,10 +6,12 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import About from "./components/About";
+import './index.css';
 
 function App() {
   return (
     <div className="bg-[url(./assets/background.jpg)] text-white">
+      <div className="bg-gif">
       <Navbar/>
       <Hero/>
       <About/>
@@ -17,6 +19,7 @@ function App() {
       <Projects/>
       <Experience/>
       <Contact/>
+      </div>
     </div>
   );
 }

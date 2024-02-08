@@ -46,16 +46,16 @@ const Skills = () => {
     }
 ]
   return (
-    <div className='h-screen lg:m-36'>
+    <div className='h-fit lg:m-36' id='skills'>
       <h1 className='text-7xl underline'>SKILLS</h1>
-      <div className='grid grid-cols-2 lg:grid-cols-3 gap-14 items-center justify-center m-10'>
+      <div className='grid grid-cols-2 lg:grid-cols-4 gap-14 items-center justify-center m-10'>
         {
           stack.map(({id,src,title,style})=>(
             <div 
               key={id}
               className={`w-full shadow-lg border-4 rounded-lg ${style}`}>
-              <img className='p-4 lg:p-16 mx-auto' src={src} alt={title} />
-              <p className='text-4xl text-center p-2 lg:p-5'>{title}</p>
+              <img className='p-10 mx-auto' src={src} alt={title} />
+              <p className='text-2xl lg:text-4xl text-center p-5'>{title}</p>
             </div>
           ))
         }

@@ -5,14 +5,14 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-import Header from "./components/Header";
+import About from "./components/About";
 
 function App() {
   return (
     <div className="bg-[url(./assets/background.jpg)] text-white">
-      <Header/>
       <Navbar/>
       <Hero/>
+      <About/>
       <Skills/>
       <Projects/>
       <Experience/>

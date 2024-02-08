@@ -11,7 +11,7 @@ const Hero = () => {
     <div className='h-fit grid grid-cols-1 lg:grid-cols-2 items-center justify-center'>
       <img src={Avatar} alt="Avatar" className='mx-auto w-[50vw] lg:w-auto'/>
       <div className='flex flex-col items-center'>
-        <h1 className='text-7xl lg:text-9xl mt-24 lg:mt-0 font-hero'>Hello</h1>
+        <h1 className='text-6xl lg:text-8xl mt-24 lg:mt-0 font-hero'>Welcome</h1>
           <h1 className='text-4xl lg:text-5xl'>
           
           <ReactTyped
